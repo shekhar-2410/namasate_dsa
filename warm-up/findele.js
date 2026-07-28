@@ -1,7 +1,5 @@
-// find the element in the array nad return the index of the element if found, otherwise return -1
-
+// find the element in the array and return the index of the element if found, otherwise return -1
 const array = [4, 2, 0, 10, 8, 13];
-
 function findElement(arr, ele) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === ele) {
@@ -13,8 +11,8 @@ function findElement(arr, ele) {
 let digit = 11;
 // console.log(findElement(array, digit));
 
-// write a function that reurn the negative integrers inside array
 
+// write a function that reurn the negative integrers inside array
 function findNegInt(arr) {
   let count = 0;
   let temp = [];
@@ -31,8 +29,8 @@ let Integrs = [2, -9, 17, 0, 1, -10, -4, 8];
 let result = findNegInt(Integrs);
 // console.log(result);
 
-// write a function which return larget number in array
 
+// write a function which return larget number in array
 function findGrtInt(int) {
   let largentInt = int[0];
   for (let i = 0; i < int.length; i++) {

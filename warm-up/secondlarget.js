@@ -1,6 +1,9 @@
 // write a function which return 2larget number in array
 
 function findGrtInt(int) {
+  if (int.length < 2) {
+    return null;
+  }
   let largentInt = -Infinity;
   let secondargentInt = -Infinity;
 
