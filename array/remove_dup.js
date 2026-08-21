@@ -27,7 +27,7 @@ function removeDup(array) {
   return x + 1;
 }
 
-// Why this works:
+z// Why this works:
 // - This is for a sorted array, so duplicate values stay next to each other.
 // - `i` scans every element from left to right.
 // - `x` tracks the last unique position we have kept.

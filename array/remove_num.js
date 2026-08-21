@@ -24,12 +24,12 @@
 function remNum(num, val) {
   let x = 0;
   for (let i = 0; i < num.length; i++) {
-    console.log("before", { i, x, current: num[i], array: [...num] });
+   
     if (val !== num[i]) {
       num[x] = num[i];
       x++;
     }
-    console.log("after", { i, x, array: [...num] });
+   
   }
   return x ;
 }
